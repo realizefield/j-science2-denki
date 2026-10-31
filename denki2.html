@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>第2講 電流計と電圧計 | GAMBA中学理科</title>
+<link rel="stylesheet" href="app.css">
+</head>
+<body data-page="denki2">
+
+<nav class="topnav">
+  <span class="brand">⚡ GAMBA 中学理科 電気</span>
+  <span class="sep">|</span>
+  <a href="index.html">📊 単元表</a>
+</nav>
+
+<div class="wrap">
+
+<header class="hero">
+  <div class="crumb">第2講 / 電流・電圧・抵抗をはかろう</div>
+  <h1>電流計と電圧計 <span class="stars">★★☆</span></h1>
+  <p class="sub">電流・電圧・抵抗の単位と、電流計・電圧計の使い方を学びます。つなぎ方と、目盛りの読み方がポイントです。</p>
+</header>
+
+<main>
+<div class="unit">
+  <div class="unit-title"><span class="num">1</span>電流・電圧・抵抗と単位</div>
+
+  <div class="stage challenge" data-ch-id="denki2-u1" data-target="#denki2-u1-readbox">
+    <div class="stage-head">
+      <span class="stage-label read">📖 説明</span>
+      <div class="stage-actions">
+        <span class="challenge-timer" style="display:none;">0:00.0</span>
+        <button class="ch-btn start">🎯 チャレンジ開始</button>
+        <button class="ch-btn judge" style="display:none;">✓ 判定</button>
+        <button class="ch-btn example" style="display:none;">📖 手本</button>
+        <button class="ch-btn reset" style="display:none;">↻ リセット</button>
+        <button class="ch-btn cancel" style="display:none;">⏹ 中断</button>
+      </div>
+    </div>
+
+    <div class="read-box" id="denki2-u1-readbox">
+<p>電気の流れを<span class="kw-blank" data-a="電流">電流</span>といい、単位は「アンペア」、記号は<span class="kw-blank" data-a="A">A</span>を使います。</p>
+
+<p>電流を流そうとする力を<span class="kw-blank" data-a="電圧">電圧</span>といい、単位は「ボルト」、記号は<span class="kw-blank" data-a="V">V</span>です。</p>
+
+<p>導線の太さや長さ、材質によって、電流の流れにくさが生じます。電流の流れにくさを<span class="kw-blank" data-a="抵抗">抵抗</span>といい、単位は「オーム」、記号は<span class="kw-blank" data-a="Ω">Ω</span>です。</p>
+
+<table class="tbl"><thead><tr><th>量</th><th>単位</th><th>記号</th></tr></thead><tbody><tr><td>電流</td><td>アンペア</td><td>A</td></tr><tr><td>電圧</td><td>ボルト</td><td>V</td></tr><tr><td>抵抗</td><td>オーム</td><td>Ω</td></tr></tbody></table>
+
+<p>1Vの電圧をかけると1A流れるような回路の抵抗は<span class="kw-blank" data-a="1Ω">1Ω</span>です。</p>
+    </div>
+
+    <div class="point-box">
+      <span class="label">★ 覚えよう!</span>
+      <ul>
+        <li>電流……電気の流れ。単位はアンペア(A)</li>
+        <li>電圧……電流を流そうとする力。単位はボルト(V)</li>
+        <li>抵抗……電流の流れにくさ。単位はオーム(Ω)</li>
+        <li>1Vの電圧で1A流れる回路の抵抗は1Ω</li>
+      </ul>
+    </div>
+
+    <div class="word-bank-inline">
+      <div class="wb-title">📚 語群 ― タップして選び、説明文の空欄をタップ!</div>
+      <div class="wb-words"></div>
+    </div>
+  </div>
+
+  <div class="minitest-block">
+    <div class="mt-block-title">✏️ ミニテスト(全4問)</div>
+
+    <div class="minitest" data-correct="o">
+      <div class="mt-stem"><span class="mt-num">問1</span>電流を流そうとする力を、電圧という。</div>
+      <div class="mt-choices">
+        <button class="mt-c" data-v="o">○</button>
+        <button class="mt-c" data-v="x">×</button>
+      </div>
+      <div class="mt-exp">○ 正解です。電圧の単位はボルト(V)です。</div>
+    </div>
+
+    <div class="q4" data-correct="a">
+      <div class="q4-stem"><span class="q4-num">問2</span>抵抗の単位はどれか。</div>
+      <div class="q4-choices">
+        <button class="q4-c" data-v="a">ア:オーム</button>
+        <button class="q4-c" data-v="b">イ:アンペア</button>
+        <button class="q4-c" data-v="c">ウ:ボルト</button>
+        <button class="q4-c" data-v="d">エ:ワット</button>
+      </div>
+      <div class="q4-exp">正解は<strong>ア</strong>。抵抗の単位はオーム(記号Ω)です。</div>
+    </div>
+
+    <div class="q4" data-correct="c">
+      <div class="q4-stem"><span class="q4-num">問3</span>電流の単位の記号はどれか。</div>
+      <div class="q4-choices">
+        <button class="q4-c" data-v="a">ア:V</button>
+        <button class="q4-c" data-v="b">イ:Ω</button>
+        <button class="q4-c" data-v="c">ウ:A</button>
+        <button class="q4-c" data-v="d">エ:W</button>
+      </div>
+      <div class="q4-exp">正解は<strong>ウ</strong>。電流の単位はアンペアで、記号はAです。</div>
+    </div>
+
+    <div class="q4" data-correct="c">
+      <div class="q4-stem"><span class="q4-num">問4</span>1Vの電圧をかけたとき、1Aの電流が流れる回路の抵抗はいくらか。</div>
+      <div class="q4-choices">
+        <button class="q4-c" data-v="a">ア:0.1Ω</button>
+        <button class="q4-c" data-v="b">イ:10Ω</button>
+        <button class="q4-c" data-v="c">ウ:1Ω</button>
+        <button class="q4-c" data-v="d">エ:100Ω</button>
+      </div>
+      <div class="q4-exp">正解は<strong>ウ</strong>。1Vで1A流れる抵抗が1Ωです。</div>
+    </div>
+
+    <div class="mt-block-result"></div>
+    <div style="text-align:center;"><button class="mt-block-reset">↻ もう一度</button></div>
+  </div>
+
+  <div class="ranking">
+    <h3>🏆 ベストタイム</h3>
+    <ul id="ranking-denki2-u1" class="ranking-list"></ul>
+    <button class="btn outline" onclick="clearRanking('denki2-u1')" style="margin-top:6px;font-size:12px;padding:4px 12px;">記録をリセット</button>
+  </div>
+</div>
+
+<div class="unit">
+  <div class="unit-title"><span class="num">2</span>電流計・電圧計のつなぎ方</div>
+
+  <div class="stage challenge" data-ch-id="denki2-u2" data-target="#denki2-u2-readbox">
+    <div class="stage-head">
+      <span class="stage-label read">📖 説明</span>
+      <div class="stage-actions">
+        <span class="challenge-timer" style="display:none;">0:00.0</span>
+        <button class="ch-btn start">🎯 チャレンジ開始</button>
+        <button class="ch-btn judge" style="display:none;">✓ 判定</button>
+        <button class="ch-btn example" style="display:none;">📖 手本</button>
+        <button class="ch-btn reset" style="display:none;">↻ リセット</button>
+        <button class="ch-btn cancel" style="display:none;">⏹ 中断</button>
+      </div>
+    </div>
+
+    <div class="read-box" id="denki2-u2-readbox">
+<div class="fig-with-table"><div class="figure"><img src="zu06.png" alt="電流計"><div class="caption">電流計</div></div><div class="figure"><img src="zu07.png" alt="電圧計"><div class="caption">電圧計</div></div></div>
+
+<p>電流計は、電気の流れる量(電流)をはかる装置です。回路に<span class="kw-blank" data-a="直列">直列</span>につなぎます。</p>
+
+<p>電流計の内部の抵抗は0に近いので、並列につなぐと大きな電流が流れてしまいます。注意しましょう。</p>
+
+<div class="fig-with-table"><div class="figure"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 150" width="260" style="max-width:100%;height:auto;display:block;margin:0 auto" role="img" aria-label=""><polygon points="26,45 234,45 234,115 26,115" fill="none" stroke="#333" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><rect x="87" y="36" width="46" height="18" rx="0" fill="#fff" stroke="#333" stroke-width="2"/><circle cx="172" cy="45" r="12" fill="#fff" stroke="#333" stroke-width="2"/><text x="172" y="50" font-size="14" text-anchor="middle" font-weight="bold" fill="#333" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">A</text><rect x="114" y="95" width="32" height="40" rx="0" fill="#fff"/><line x1="126" y1="99" x2="126" y2="131" stroke="#333" stroke-width="2" stroke-linecap="round"/><line x1="134" y1="106" x2="134" y2="124" stroke="#333" stroke-width="4.5" stroke-linecap="round"/><line x1="116" y1="115" x2="126" y2="115" stroke="#333" stroke-width="2" stroke-linecap="round"/><line x1="134" y1="115" x2="144" y2="115" stroke="#333" stroke-width="2" stroke-linecap="round"/></svg><div class="caption">○　直列につなぐ</div></div><div class="figure"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 150" width="260" style="max-width:100%;height:auto;display:block;margin:0 auto" role="img" aria-label=""><polygon points="26,45 234,45 234,115 26,115" fill="none" stroke="#333" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><rect x="87" y="36" width="46" height="18" rx="0" fill="#fff" stroke="#333" stroke-width="2"/><line x1="87" y1="45" x2="87" y2="13" stroke="#333" stroke-width="2" stroke-linecap="round"/><line x1="133" y1="45" x2="133" y2="13" stroke="#333" stroke-width="2" stroke-linecap="round"/><line x1="87" y1="13" x2="133" y2="13" stroke="#333" stroke-width="2" stroke-linecap="round"/><circle cx="110" cy="13" r="12" fill="#fff" stroke="#333" stroke-width="2"/><text x="110" y="18" font-size="14" text-anchor="middle" font-weight="bold" fill="#333" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">A</text><circle cx="87" cy="45" r="3.4" fill="#333"/><circle cx="133" cy="45" r="3.4" fill="#333"/><rect x="114" y="95" width="32" height="40" rx="0" fill="#fff"/><line x1="126" y1="99" x2="126" y2="131" stroke="#333" stroke-width="2" stroke-linecap="round"/><line x1="134" y1="106" x2="134" y2="124" stroke="#333" stroke-width="4.5" stroke-linecap="round"/><line x1="116" y1="115" x2="126" y2="115" stroke="#333" stroke-width="2" stroke-linecap="round"/><line x1="134" y1="115" x2="144" y2="115" stroke="#333" stroke-width="2" stroke-linecap="round"/></svg><div class="caption">×　並列につなぐ</div></div></div>
+
+<p>電圧計は、電圧の大きさをはかる装置です。抵抗や電池に<span class="kw-blank" data-a="並列">並列</span>につなぎます。</p>
+
+<p>電圧計は内部に大きな抵抗をもつので、直列につなぐと回路に電流が<span class="kw-blank" data-a="流れなくなります">流れなくなります</span>。</p>
+
+<div class="fig-with-table"><div class="figure"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 150" width="260" style="max-width:100%;height:auto;display:block;margin:0 auto" role="img" aria-label=""><polygon points="26,45 234,45 234,115 26,115" fill="none" stroke="#333" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><rect x="107" y="36" width="46" height="18" rx="0" fill="#fff" stroke="#333" stroke-width="2"/><line x1="107" y1="45" x2="107" y2="13" stroke="#333" stroke-width="2" stroke-linecap="round"/><line x1="153" y1="45" x2="153" y2="13" stroke="#333" stroke-width="2" stroke-linecap="round"/><line x1="107" y1="13" x2="153" y2="13" stroke="#333" stroke-width="2" stroke-linecap="round"/><circle cx="130" cy="13" r="12" fill="#fff" stroke="#333" stroke-width="2"/><text x="130" y="18" font-size="14" text-anchor="middle" font-weight="bold" fill="#333" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">V</text><circle cx="107" cy="45" r="3.4" fill="#333"/><circle cx="153" cy="45" r="3.4" fill="#333"/><rect x="114" y="95" width="32" height="40" rx="0" fill="#fff"/><line x1="126" y1="99" x2="126" y2="131" stroke="#333" stroke-width="2" stroke-linecap="round"/><line x1="134" y1="106" x2="134" y2="124" stroke="#333" stroke-width="4.5" stroke-linecap="round"/><line x1="116" y1="115" x2="126" y2="115" stroke="#333" stroke-width="2" stroke-linecap="round"/><line x1="134" y1="115" x2="144" y2="115" stroke="#333" stroke-width="2" stroke-linecap="round"/></svg><div class="caption">○　並列につなぐ</div></div><div class="figure"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 150" width="260" style="max-width:100%;height:auto;display:block;margin:0 auto" role="img" aria-label=""><polygon points="26,45 234,45 234,115 26,115" fill="none" stroke="#333" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><rect x="77" y="36" width="46" height="18" rx="0" fill="#fff" stroke="#333" stroke-width="2"/><circle cx="170" cy="45" r="12" fill="#fff" stroke="#333" stroke-width="2"/><text x="170" y="50" font-size="14" text-anchor="middle" font-weight="bold" fill="#333" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">V</text><rect x="114" y="95" width="32" height="40" rx="0" fill="#fff"/><line x1="126" y1="99" x2="126" y2="131" stroke="#333" stroke-width="2" stroke-linecap="round"/><line x1="134" y1="106" x2="134" y2="124" stroke="#333" stroke-width="4.5" stroke-linecap="round"/><line x1="116" y1="115" x2="126" y2="115" stroke="#333" stroke-width="2" stroke-linecap="round"/><line x1="134" y1="115" x2="144" y2="115" stroke="#333" stroke-width="2" stroke-linecap="round"/></svg><div class="caption">×　直列につなぐ</div></div></div>
+    </div>
+
+    <div class="point-box">
+      <span class="label">★ 覚えよう!</span>
+      <ul>
+        <li>電流計……回路に直列につなぐ(内部の抵抗が0に近いので、並列は危険)</li>
+        <li>電圧計……抵抗や電池に並列につなぐ(内部の抵抗が大きいので、直列にすると電流が流れない)</li>
+      </ul>
+    </div>
+
+    <div class="word-bank-inline">
+      <div class="wb-title">📚 語群 ― タップして選び、説明文の空欄をタップ!</div>
+      <div class="wb-words"></div>
+    </div>
+  </div>
+
+  <div class="minitest-block">
+    <div class="mt-block-title">✏️ ミニテスト(全4問)</div>
+
+    <div class="minitest" data-correct="x">
+      <div class="mt-stem"><span class="mt-num">問1</span>電流計は、回路に並列につなぐ。</div>
+      <div class="mt-choices">
+        <button class="mt-c" data-v="o">○</button>
+        <button class="mt-c" data-v="x">×</button>
+      </div>
+      <div class="mt-exp">× 電流計は回路に直列につなぎます。並列につなぐと大きな電流が流れてしまいます。</div>
+    </div>
+
+    <div class="minitest" data-correct="o">
+      <div class="mt-stem"><span class="mt-num">問2</span>電圧計は、抵抗や電池に並列につなぐ。</div>
+      <div class="mt-choices">
+        <button class="mt-c" data-v="o">○</button>
+        <button class="mt-c" data-v="x">×</button>
+      </div>
+      <div class="mt-exp">○ 正解です。電圧計は電圧をはかりたい部分に並列につなぎます。</div>
+    </div>
+
+    <div class="q4" data-correct="a">
+      <div class="q4-stem"><span class="q4-num">問3</span>電流計を正しくつないだ回路図はどれか。</div>
+      <div class="q4-choices" style="grid-template-columns:repeat(auto-fit,minmax(240px,1fr))">
+        <button class="q4-c" data-v="a">ア:<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 230 150" width="230" style="max-width:100%;height:auto;display:block;margin:0 auto" role="img" aria-label=""><polygon points="26,45 204,45 204,115 26,115" fill="none" stroke="#333" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><rect x="72" y="36" width="46" height="18" rx="0" fill="#fff" stroke="#333" stroke-width="2"/><circle cx="157" cy="45" r="12" fill="#fff" stroke="#333" stroke-width="2"/><text x="157" y="50" font-size="14" text-anchor="middle" font-weight="bold" fill="#333" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">A</text><rect x="99" y="95" width="32" height="40" rx="0" fill="#fff"/><line x1="111" y1="99" x2="111" y2="131" stroke="#333" stroke-width="2" stroke-linecap="round"/><line x1="119" y1="106" x2="119" y2="124" stroke="#333" stroke-width="4.5" stroke-linecap="round"/><line x1="101" y1="115" x2="111" y2="115" stroke="#333" stroke-width="2" stroke-linecap="round"/><line x1="119" y1="115" x2="129" y2="115" stroke="#333" stroke-width="2" stroke-linecap="round"/></svg></button>
+        <button class="q4-c" data-v="b">イ:<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 230 150" width="230" style="max-width:100%;height:auto;display:block;margin:0 auto" role="img" aria-label=""><polygon points="26,45 204,45 204,115 26,115" fill="none" stroke="#333" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><rect x="72" y="36" width="46" height="18" rx="0" fill="#fff" stroke="#333" stroke-width="2"/><line x1="72" y1="45" x2="72" y2="13" stroke="#333" stroke-width="2" stroke-linecap="round"/><line x1="118" y1="45" x2="118" y2="13" stroke="#333" stroke-width="2" stroke-linecap="round"/><line x1="72" y1="13" x2="118" y2="13" stroke="#333" stroke-width="2" stroke-linecap="round"/><circle cx="95" cy="13" r="12" fill="#fff" stroke="#333" stroke-width="2"/><text x="95" y="18" font-size="14" text-anchor="middle" font-weight="bold" fill="#333" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">A</text><circle cx="72" cy="45" r="3.4" fill="#333"/><circle cx="118" cy="45" r="3.4" fill="#333"/><rect x="99" y="95" width="32" height="40" rx="0" fill="#fff"/><line x1="111" y1="99" x2="111" y2="131" stroke="#333" stroke-width="2" stroke-linecap="round"/><line x1="119" y1="106" x2="119" y2="124" stroke="#333" stroke-width="4.5" stroke-linecap="round"/><line x1="101" y1="115" x2="111" y2="115" stroke="#333" stroke-width="2" stroke-linecap="round"/><line x1="119" y1="115" x2="129" y2="115" stroke="#333" stroke-width="2" stroke-linecap="round"/></svg></button>
+        <button class="q4-c" data-v="c">ウ:<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 230 150" width="230" style="max-width:100%;height:auto;display:block;margin:0 auto" role="img" aria-label=""><polygon points="26,45 204,45 204,115 26,115" fill="none" stroke="#333" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><rect x="62" y="36" width="46" height="18" rx="0" fill="#fff" stroke="#333" stroke-width="2"/><circle cx="155" cy="45" r="12" fill="#fff" stroke="#333" stroke-width="2"/><text x="155" y="50" font-size="14" text-anchor="middle" font-weight="bold" fill="#333" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">V</text><rect x="99" y="95" width="32" height="40" rx="0" fill="#fff"/><line x1="111" y1="99" x2="111" y2="131" stroke="#333" stroke-width="2" stroke-linecap="round"/><line x1="119" y1="106" x2="119" y2="124" stroke="#333" stroke-width="4.5" stroke-linecap="round"/><line x1="101" y1="115" x2="111" y2="115" stroke="#333" stroke-width="2" stroke-linecap="round"/><line x1="119" y1="115" x2="129" y2="115" stroke="#333" stroke-width="2" stroke-linecap="round"/></svg></button>
+        <button class="q4-c" data-v="d">エ:<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 230 150" width="230" style="max-width:100%;height:auto;display:block;margin:0 auto" role="img" aria-label=""><polygon points="26,45 204,45 204,115 26,115" fill="none" stroke="#333" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><rect x="92" y="36" width="46" height="18" rx="0" fill="#fff" stroke="#333" stroke-width="2"/><line x1="92" y1="45" x2="92" y2="13" stroke="#333" stroke-width="2" stroke-linecap="round"/><line x1="138" y1="45" x2="138" y2="13" stroke="#333" stroke-width="2" stroke-linecap="round"/><line x1="92" y1="13" x2="138" y2="13" stroke="#333" stroke-width="2" stroke-linecap="round"/><circle cx="115" cy="13" r="12" fill="#fff" stroke="#333" stroke-width="2"/><text x="115" y="18" font-size="14" text-anchor="middle" font-weight="bold" fill="#333" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">V</text><circle cx="92" cy="45" r="3.4" fill="#333"/><circle cx="138" cy="45" r="3.4" fill="#333"/><rect x="99" y="95" width="32" height="40" rx="0" fill="#fff"/><line x1="111" y1="99" x2="111" y2="131" stroke="#333" stroke-width="2" stroke-linecap="round"/><line x1="119" y1="106" x2="119" y2="124" stroke="#333" stroke-width="4.5" stroke-linecap="round"/><line x1="101" y1="115" x2="111" y2="115" stroke="#333" stroke-width="2" stroke-linecap="round"/><line x1="119" y1="115" x2="129" y2="115" stroke="#333" stroke-width="2" stroke-linecap="round"/></svg></button>
+      </div>
+      <div class="q4-exp">正解は<strong>ア</strong>。正しい回路図では、電流計Ⓐが抵抗に直列につながっています。計器がⓋ(電圧計)のものは、電流計ではありません。</div>
+    </div>
+
+    <div class="q4" data-correct="d">
+      <div class="q4-stem"><span class="q4-num">問4</span>電圧計を直列につなぐと、どうなるか。</div>
+      <div class="q4-choices">
+        <button class="q4-c" data-v="a">ア:大きな電流が流れてこわれる</button>
+        <button class="q4-c" data-v="b">イ:針が反対にふれる</button>
+        <button class="q4-c" data-v="c">ウ:なにも変わらない</button>
+        <button class="q4-c" data-v="d">エ:回路に電流が流れなくなる</button>
+      </div>
+      <div class="q4-exp">正解は<strong>エ</strong>。電圧計は内部に大きな抵抗があるので、直列につなぐと回路に電流が流れなくなります。</div>
+    </div>
+
+    <div class="mt-block-result"></div>
+    <div style="text-align:center;"><button class="mt-block-reset">↻ もう一度</button></div>
+  </div>
+
+  <div class="ranking">
+    <h3>🏆 ベストタイム</h3>
+    <ul id="ranking-denki2-u2" class="ranking-list"></ul>
+    <button class="btn outline" onclick="clearRanking('denki2-u2')" style="margin-top:6px;font-size:12px;padding:4px 12px;">記録をリセット</button>
+  </div>
+</div>
+
+<div class="unit">
+  <div class="unit-title"><span class="num">3</span>端子のつなぎ方と選び方</div>
+
+  <div class="stage challenge" data-ch-id="denki2-u3" data-target="#denki2-u3-readbox">
+    <div class="stage-head">
+      <span class="stage-label read">📖 説明</span>
+      <div class="stage-actions">
+        <span class="challenge-timer" style="display:none;">0:00.0</span>
+        <button class="ch-btn start">🎯 チャレンジ開始</button>
+        <button class="ch-btn judge" style="display:none;">✓ 判定</button>
+        <button class="ch-btn example" style="display:none;">📖 手本</button>
+        <button class="ch-btn reset" style="display:none;">↻ リセット</button>
+        <button class="ch-btn cancel" style="display:none;">⏹ 中断</button>
+      </div>
+    </div>
+
+    <div class="read-box" id="denki2-u3-readbox">
+<p>電流計・電圧計には極性があります。電池の＋極側の導線は<span class="kw-blank" data-a="＋端子">＋端子</span>に、−極側の導線は<span class="kw-blank" data-a="−端子">−端子</span>につなぎます。逆につなぐと針が反対にふれ、こわれることがあります。</p>
+
+<p>どちらの端子につなぐかは、電池の＋極(長い線)から回路にそってたどって決めます。電池の＋極に近い側が＋端子、−極に近い側が−端子です。</p>
+
+<div class="figure"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 160" width="320" style="max-width:100%;height:auto;display:block;margin:0 auto" role="img" aria-label="電流計と電圧計のつなぎ方"><polygon points="30,62 290,62 290,128 30,128" fill="none" stroke="#333" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><rect x="87" y="53" width="46" height="18" rx="0" fill="#fff" stroke="#333" stroke-width="2"/><circle cx="205" cy="62" r="12" fill="#fff" stroke="#333" stroke-width="2"/><text x="205" y="67" font-size="14" text-anchor="middle" font-weight="bold" fill="#333" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">A</text><line x1="87" y1="62" x2="87" y2="28" stroke="#333" stroke-width="2" stroke-linecap="round"/><line x1="133" y1="62" x2="133" y2="28" stroke="#333" stroke-width="2" stroke-linecap="round"/><line x1="87" y1="28" x2="133" y2="28" stroke="#333" stroke-width="2" stroke-linecap="round"/><circle cx="110" cy="28" r="12" fill="#fff" stroke="#333" stroke-width="2"/><text x="110" y="33" font-size="14" text-anchor="middle" font-weight="bold" fill="#333" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">V</text><circle cx="87" cy="62" r="3.4" fill="#333"/><circle cx="133" cy="62" r="3.4" fill="#333"/><rect x="144" y="108" width="32" height="40" rx="0" fill="#fff"/><line x1="156" y1="112" x2="156" y2="144" stroke="#333" stroke-width="2" stroke-linecap="round"/><line x1="164" y1="119" x2="164" y2="137" stroke="#333" stroke-width="4.5" stroke-linecap="round"/><line x1="146" y1="128" x2="156" y2="128" stroke="#333" stroke-width="2" stroke-linecap="round"/><line x1="164" y1="128" x2="174" y2="128" stroke="#333" stroke-width="2" stroke-linecap="round"/><circle cx="87" cy="62" r="3.4" fill="#333"/><text x="87" y="82" font-size="15" text-anchor="middle" font-weight="bold" fill="#C0392B" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">a</text><circle cx="133" cy="62" r="3.4" fill="#333"/><text x="133" y="82" font-size="15" text-anchor="middle" font-weight="bold" fill="#C0392B" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">b</text><circle cx="180" cy="62" r="3.4" fill="#333"/><text x="180" y="82" font-size="15" text-anchor="middle" font-weight="bold" fill="#C0392B" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">c</text><circle cx="230" cy="62" r="3.4" fill="#333"/><text x="230" y="82" font-size="15" text-anchor="middle" font-weight="bold" fill="#C0392B" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">d</text></svg><div class="caption">電池の＋極から回路をたどると、a→b→c→dの順です。　a＝＋、b＝−、c＋、d＝−</div></div>
+
+<p>どれだけの電圧・電流が流れるかわからないときは、針が振り切れてこわれないように、いちばん<span class="kw-blank" data-a="大きい">大きい</span>端子からつなぎます。電圧計なら<span class="kw-blank" data-a="300V">300V</span>端子、電流計なら<span class="kw-blank" data-a="5A">5A</span>端子です。</p>
+
+<div class="fig-with-table"><div class="figure"><img src="zu08.png" alt="電流計の端子"><div class="caption">電流計の端子(50mA・500mA・5A・＋)</div></div><div class="figure"><img src="zu09.png" alt="電圧計の端子"><div class="caption">電圧計の端子(300V・15V・3V・＋)</div></div></div>
+    </div>
+
+    <div class="point-box">
+      <span class="label">★ 覚えよう!</span>
+      <ul>
+        <li>電池の＋極に近い側は＋端子、−極に近い側は−端子につなぐ</li>
+        <li>逆につなぐと、針が反対にふれてこわれることがある</li>
+        <li>予想できないときは、いちばん大きい端子(電圧計は300V、電流計は5A)から</li>
+      </ul>
+    </div>
+
+    <div class="word-bank-inline">
+      <div class="wb-title">📚 語群 ― タップして選び、説明文の空欄をタップ!</div>
+      <div class="wb-words"></div>
+    </div>
+  </div>
+
+  <div class="minitest-block">
+    <div class="mt-block-title">✏️ ミニテスト(全4問)</div>
+
+    <div class="minitest" data-correct="o">
+      <div class="mt-stem"><span class="mt-num">問1</span>電流計・電圧計の＋端子には、電池の＋極に近い側の導線をつなぐ。</div>
+      <div class="mt-choices">
+        <button class="mt-c" data-v="o">○</button>
+        <button class="mt-c" data-v="x">×</button>
+      </div>
+      <div class="mt-exp">○ 正解です。電池の＋極から回路をたどって、近い側が＋端子です。</div>
+    </div>
+
+    <div class="q4" data-correct="b">
+      <div class="q4-stem"><span class="q4-num">問2</span>どれだけの電圧がかかっているかわからないとき、電圧計はどの端子につなぐか。</div>
+      <div class="q4-choices">
+        <button class="q4-c" data-v="a">ア:3V端子</button>
+        <button class="q4-c" data-v="b">イ:300V端子</button>
+        <button class="q4-c" data-v="c">ウ:15V端子</button>
+        <button class="q4-c" data-v="d">エ:＋端子</button>
+      </div>
+      <div class="q4-exp">正解は<strong>イ</strong>。針が振り切れてこわれないように、最も大きい300V端子からつなぎます。</div>
+    </div>
+
+    <div class="q4" data-correct="a">
+      <div class="q4-stem"><span class="q4-num">問3</span>電流の強さが予想できないとき、電流計はどの端子から使うか。</div>
+      <div class="q4-choices">
+        <button class="q4-c" data-v="a">ア:5A端子</button>
+        <button class="q4-c" data-v="b">イ:50mA端子</button>
+        <button class="q4-c" data-v="c">ウ:500mA端子</button>
+        <button class="q4-c" data-v="d">エ:どれでもよい</button>
+      </div>
+      <div class="q4-exp">正解は<strong>ア</strong>。最も大きい5A端子から使います。</div>
+    </div>
+
+    <div class="q4" data-correct="c">
+      <div class="q4-stem"><span class="q4-num">問4</span>図で、dの位置の導線は、電流計のどちらの端子につなぐか。</div>
+      <div class="q4-choices">
+        <button class="q4-c" data-v="a">ア:＋端子</button>
+        <button class="q4-c" data-v="b">イ:どちらでもよい</button>
+        <button class="q4-c" data-v="c">ウ:−端子</button>
+        <button class="q4-c" data-v="d">エ:5A端子</button>
+      </div>
+      <div class="q4-exp">正解は<strong>ウ</strong>。dは電池の−極に近い側なので、−端子につなぎます。</div>
+    </div>
+
+    <div class="mt-block-result"></div>
+    <div style="text-align:center;"><button class="mt-block-reset">↻ もう一度</button></div>
+  </div>
+
+  <div class="ranking">
+    <h3>🏆 ベストタイム</h3>
+    <ul id="ranking-denki2-u3" class="ranking-list"></ul>
+    <button class="btn outline" onclick="clearRanking('denki2-u3')" style="margin-top:6px;font-size:12px;padding:4px 12px;">記録をリセット</button>
+  </div>
+</div>
+
+<div class="unit">
+  <div class="unit-title"><span class="num">4</span>単位の変換と目盛りの読み方</div>
+
+  <div class="stage challenge" data-ch-id="denki2-u4" data-target="#denki2-u4-readbox">
+    <div class="stage-head">
+      <span class="stage-label read">📖 説明</span>
+      <div class="stage-actions">
+        <span class="challenge-timer" style="display:none;">0:00.0</span>
+        <button class="ch-btn start">🎯 チャレンジ開始</button>
+        <button class="ch-btn judge" style="display:none;">✓ 判定</button>
+        <button class="ch-btn example" style="display:none;">📖 手本</button>
+        <button class="ch-btn reset" style="display:none;">↻ リセット</button>
+        <button class="ch-btn cancel" style="display:none;">⏹ 中断</button>
+      </div>
+    </div>
+
+    <div class="read-box" id="denki2-u4-readbox">
+<p>電流・電圧の小さい値は、mA(ミリアンペア)・mV(ミリボルト)で表すことがあります。1mA＝1/1000A、1mV＝1/1000Vです。mV→V、mA→Aに直すときは、<span class="kw-blank" data-a="1000">1000</span>で割ります。</p>
+
+<p>【例】500mV＝500÷1000＝0.5V　／　125mA＝125÷1000＝0.125A　／　50mV＝50÷1000＝0.05V</p>
+
+<p>目盛りは、使っている端子に合った目盛りを読みます。最小の目盛りの<span class="kw-blank" data-a="10分の1">10分の1</span>まで目分量で読みとります。</p>
+
+<p>【例1】15V端子を使うと、最小の目盛りは(15−10)÷10＝0.5Vです。下の図の針が示す値は<span class="kw-blank" data-a="6.50V">6.50V</span>です。</p>
+
+<div class="figure"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 225" width="330" style="max-width:100%;height:auto;display:block;margin:0 auto" role="img" aria-label="V計の目盛り(15V)"><rect x="6" y="42" width="318" height="178" rx="14" fill="#fffdf5" stroke="#666" stroke-width="2"/><rect x="12" y="8" width="56" height="26" rx="6" fill="#eee" stroke="#888" stroke-width="1.4"/><text x="40" y="26" font-size="13" text-anchor="middle" font-weight="normal" fill="#333" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">300V</text><rect x="94" y="8" width="56" height="26" rx="6" fill="#ffd9a8" stroke="#c0752b" stroke-width="2.2"/><text x="122" y="26" font-size="13" text-anchor="middle" font-weight="bold" fill="#333" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">15V</text><rect x="176" y="8" width="56" height="26" rx="6" fill="#eee" stroke="#888" stroke-width="1.4"/><text x="204" y="26" font-size="13" text-anchor="middle" font-weight="normal" fill="#333" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">3V</text><rect x="258" y="8" width="56" height="26" rx="6" fill="#eee" stroke="#888" stroke-width="1.4"/><text x="286" y="26" font-size="13" text-anchor="middle" font-weight="normal" fill="#333" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">＋</text><path d="M 66.95 122.72 A 128 128 0 0 1 263.05 122.72" fill="none" stroke="#444" stroke-width="1.4" stroke-linecap="round"/><line x1="66.9463" y1="122.723" x2="76.9049" y2="131.079" stroke="#222" stroke-width="1.8" stroke-linecap="round"/><line x1="71.8962" y1="117.161" x2="76.9878" y2="121.965" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="77.1611" y1="111.896" x2="81.9648" y2="116.988" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="82.7232" y1="106.946" x2="87.2227" y2="112.309" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="88.5637" y1="102.328" x2="92.7438" y2="107.943" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="94.6629" y1="98.0576" x2="98.5094" y2="103.906" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="101" y1="94.1487" x2="104.5" y2="100.211" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="107.554" y1="90.615" x2="110.695" y2="96.8705" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="114.302" y1="87.4683" x2="117.074" y2="93.8959" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="121.221" y1="84.7193" x2="123.616" y2="91.2972" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="128.289" y1="82.3773" x2="132.018" y2="94.8312" stroke="#222" stroke-width="1.8" stroke-linecap="round"/><line x1="135.481" y1="80.4503" x2="137.095" y2="87.2616" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="142.773" y1="78.9446" x2="143.989" y2="85.8383" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="150.14" y1="77.8655" x2="150.953" y2="84.8182" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="157.557" y1="77.2166" x2="157.964" y2="84.2047" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="165" y1="77" x2="165" y2="84" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="172.443" y1="77.2166" x2="172.036" y2="84.2047" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="179.86" y1="77.8655" x2="179.047" y2="84.8182" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="187.227" y1="78.9446" x2="186.011" y2="85.8383" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="194.519" y1="80.4503" x2="192.905" y2="87.2616" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="201.711" y1="82.3773" x2="197.982" y2="94.8312" stroke="#222" stroke-width="1.8" stroke-linecap="round"/><line x1="208.779" y1="84.7193" x2="206.384" y2="91.2972" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="215.698" y1="87.4683" x2="212.926" y2="93.8959" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="222.446" y1="90.615" x2="219.305" y2="96.8705" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="229" y1="94.1487" x2="225.5" y2="100.211" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="235.337" y1="98.0576" x2="231.491" y2="103.906" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="241.436" y1="102.328" x2="237.256" y2="107.943" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="247.277" y1="106.946" x2="242.777" y2="112.309" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="252.839" y1="111.896" x2="248.035" y2="116.988" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="258.104" y1="117.161" x2="253.012" y2="121.965" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="263.054" y1="122.723" x2="253.095" y2="131.079" stroke="#222" stroke-width="1.8" stroke-linecap="round"/><text x="56.9877" y="118.367" font-size="12" text-anchor="middle" font-weight="normal" fill="#333" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">0</text><text x="124.561" y="73.9235" font-size="12" text-anchor="middle" font-weight="normal" fill="#333" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">5</text><text x="205.439" y="73.9235" font-size="12" text-anchor="middle" font-weight="normal" fill="#333" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">10</text><text x="273.012" y="118.367" font-size="12" text-anchor="middle" font-weight="normal" fill="#333" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">15</text><path d="M 96.06 147.15 A 90 90 0 0 1 233.94 147.15" fill="none" stroke="#444" stroke-width="1.4" stroke-linecap="round"/><line x1="96.056" y1="147.149" x2="106.015" y2="155.505" stroke="#222" stroke-width="1.8" stroke-linecap="round"/><line x1="99.5364" y1="143.238" x2="104.628" y2="148.042" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="103.238" y1="139.536" x2="108.042" y2="144.628" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="107.149" y1="136.056" x2="111.649" y2="141.418" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="111.256" y1="132.809" x2="115.436" y2="138.424" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="115.544" y1="129.806" x2="119.391" y2="135.655" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="120" y1="127.058" x2="123.5" y2="133.12" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="124.608" y1="124.573" x2="127.75" y2="130.828" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="129.353" y1="122.361" x2="132.125" y2="128.788" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="134.218" y1="120.428" x2="136.612" y2="127.006" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="139.188" y1="118.781" x2="142.916" y2="131.235" stroke="#222" stroke-width="1.8" stroke-linecap="round"/><line x1="144.245" y1="117.426" x2="145.859" y2="124.237" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="149.372" y1="116.367" x2="150.587" y2="123.261" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="154.552" y1="115.609" x2="155.364" y2="122.561" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="159.767" y1="115.152" x2="160.174" y2="122.14" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="165" y1="115" x2="165" y2="122" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="170.233" y1="115.152" x2="169.826" y2="122.14" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="175.448" y1="115.609" x2="174.636" y2="122.561" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="180.628" y1="116.367" x2="179.413" y2="123.261" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="185.755" y1="117.426" x2="184.141" y2="124.237" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="190.812" y1="118.781" x2="187.084" y2="131.235" stroke="#222" stroke-width="1.8" stroke-linecap="round"/><line x1="195.782" y1="120.428" x2="193.388" y2="127.006" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="200.647" y1="122.361" x2="197.875" y2="128.788" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="205.392" y1="124.573" x2="202.25" y2="130.828" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="210" y1="127.058" x2="206.5" y2="133.12" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="214.456" y1="129.806" x2="210.609" y2="135.655" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="218.744" y1="132.809" x2="214.564" y2="138.424" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="222.851" y1="136.056" x2="218.351" y2="141.418" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="226.762" y1="139.536" x2="221.958" y2="144.628" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="230.464" y1="143.238" x2="225.372" y2="148.042" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="233.944" y1="147.149" x2="223.985" y2="155.505" stroke="#222" stroke-width="1.8" stroke-linecap="round"/><text x="114.441" y="166.576" font-size="12" text-anchor="middle" font-weight="normal" fill="#333" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">0</text><text x="146.071" y="145.773" font-size="12" text-anchor="middle" font-weight="normal" fill="#333" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">1</text><text x="183.929" y="145.773" font-size="12" text-anchor="middle" font-weight="normal" fill="#333" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">2</text><text x="215.559" y="166.576" font-size="12" text-anchor="middle" font-weight="normal" fill="#333" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">3</text><text x="165" y="170" font-size="24" text-anchor="middle" font-weight="bold" fill="#333" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">V</text><line x1="165" y1="205" x2="150.488" y2="80.8452" stroke="#c0392b" stroke-width="2.6" stroke-linecap="round"/><circle cx="165" cy="205" r="6" fill="#c0392b" stroke="#7b241c" stroke-width="1.5"/></svg><div class="caption">15V端子を使った電圧計</div></div>
+
+<p>【例2】3V端子を使うと、最小の目盛りは(3−2)÷10＝0.1Vです。下の図の針が示す値は<span class="kw-blank" data-a="1.30V">1.30V</span>です。</p>
+
+<div class="figure"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 225" width="330" style="max-width:100%;height:auto;display:block;margin:0 auto" role="img" aria-label="V計の目盛り(3V)"><rect x="6" y="42" width="318" height="178" rx="14" fill="#fffdf5" stroke="#666" stroke-width="2"/><rect x="12" y="8" width="56" height="26" rx="6" fill="#eee" stroke="#888" stroke-width="1.4"/><text x="40" y="26" font-size="13" text-anchor="middle" font-weight="normal" fill="#333" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">300V</text><rect x="94" y="8" width="56" height="26" rx="6" fill="#eee" stroke="#888" stroke-width="1.4"/><text x="122" y="26" font-size="13" text-anchor="middle" font-weight="normal" fill="#333" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">15V</text><rect x="176" y="8" width="56" height="26" rx="6" fill="#ffd9a8" stroke="#c0752b" stroke-width="2.2"/><text x="204" y="26" font-size="13" text-anchor="middle" font-weight="bold" fill="#333" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">3V</text><rect x="258" y="8" width="56" height="26" rx="6" fill="#eee" stroke="#888" stroke-width="1.4"/><text x="286" y="26" font-size="13" text-anchor="middle" font-weight="normal" fill="#333" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">＋</text><path d="M 66.95 122.72 A 128 128 0 0 1 263.05 122.72" fill="none" stroke="#444" stroke-width="1.4" stroke-linecap="round"/><line x1="66.9463" y1="122.723" x2="76.9049" y2="131.079" stroke="#222" stroke-width="1.8" stroke-linecap="round"/><line x1="71.8962" y1="117.161" x2="76.9878" y2="121.965" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="77.1611" y1="111.896" x2="81.9648" y2="116.988" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="82.7232" y1="106.946" x2="87.2227" y2="112.309" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="88.5637" y1="102.328" x2="92.7438" y2="107.943" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="94.6629" y1="98.0576" x2="98.5094" y2="103.906" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="101" y1="94.1487" x2="104.5" y2="100.211" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="107.554" y1="90.615" x2="110.695" y2="96.8705" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="114.302" y1="87.4683" x2="117.074" y2="93.8959" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="121.221" y1="84.7193" x2="123.616" y2="91.2972" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="128.289" y1="82.3773" x2="132.018" y2="94.8312" stroke="#222" stroke-width="1.8" stroke-linecap="round"/><line x1="135.481" y1="80.4503" x2="137.095" y2="87.2616" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="142.773" y1="78.9446" x2="143.989" y2="85.8383" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="150.14" y1="77.8655" x2="150.953" y2="84.8182" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="157.557" y1="77.2166" x2="157.964" y2="84.2047" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="165" y1="77" x2="165" y2="84" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="172.443" y1="77.2166" x2="172.036" y2="84.2047" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="179.86" y1="77.8655" x2="179.047" y2="84.8182" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="187.227" y1="78.9446" x2="186.011" y2="85.8383" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="194.519" y1="80.4503" x2="192.905" y2="87.2616" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="201.711" y1="82.3773" x2="197.982" y2="94.8312" stroke="#222" stroke-width="1.8" stroke-linecap="round"/><line x1="208.779" y1="84.7193" x2="206.384" y2="91.2972" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="215.698" y1="87.4683" x2="212.926" y2="93.8959" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="222.446" y1="90.615" x2="219.305" y2="96.8705" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="229" y1="94.1487" x2="225.5" y2="100.211" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="235.337" y1="98.0576" x2="231.491" y2="103.906" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="241.436" y1="102.328" x2="237.256" y2="107.943" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="247.277" y1="106.946" x2="242.777" y2="112.309" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="252.839" y1="111.896" x2="248.035" y2="116.988" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="258.104" y1="117.161" x2="253.012" y2="121.965" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="263.054" y1="122.723" x2="253.095" y2="131.079" stroke="#222" stroke-width="1.8" stroke-linecap="round"/><text x="56.9877" y="118.367" font-size="12" text-anchor="middle" font-weight="normal" fill="#333" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">0</text><text x="124.561" y="73.9235" font-size="12" text-anchor="middle" font-weight="normal" fill="#333" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">5</text><text x="205.439" y="73.9235" font-size="12" text-anchor="middle" font-weight="normal" fill="#333" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">10</text><text x="273.012" y="118.367" font-size="12" text-anchor="middle" font-weight="normal" fill="#333" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">15</text><path d="M 96.06 147.15 A 90 90 0 0 1 233.94 147.15" fill="none" stroke="#444" stroke-width="1.4" stroke-linecap="round"/><line x1="96.056" y1="147.149" x2="106.015" y2="155.505" stroke="#222" stroke-width="1.8" stroke-linecap="round"/><line x1="99.5364" y1="143.238" x2="104.628" y2="148.042" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="103.238" y1="139.536" x2="108.042" y2="144.628" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="107.149" y1="136.056" x2="111.649" y2="141.418" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="111.256" y1="132.809" x2="115.436" y2="138.424" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="115.544" y1="129.806" x2="119.391" y2="135.655" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="120" y1="127.058" x2="123.5" y2="133.12" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="124.608" y1="124.573" x2="127.75" y2="130.828" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="129.353" y1="122.361" x2="132.125" y2="128.788" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="134.218" y1="120.428" x2="136.612" y2="127.006" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="139.188" y1="118.781" x2="142.916" y2="131.235" stroke="#222" stroke-width="1.8" stroke-linecap="round"/><line x1="144.245" y1="117.426" x2="145.859" y2="124.237" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="149.372" y1="116.367" x2="150.587" y2="123.261" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="154.552" y1="115.609" x2="155.364" y2="122.561" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="159.767" y1="115.152" x2="160.174" y2="122.14" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="165" y1="115" x2="165" y2="122" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="170.233" y1="115.152" x2="169.826" y2="122.14" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="175.448" y1="115.609" x2="174.636" y2="122.561" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="180.628" y1="116.367" x2="179.413" y2="123.261" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="185.755" y1="117.426" x2="184.141" y2="124.237" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="190.812" y1="118.781" x2="187.084" y2="131.235" stroke="#222" stroke-width="1.8" stroke-linecap="round"/><line x1="195.782" y1="120.428" x2="193.388" y2="127.006" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="200.647" y1="122.361" x2="197.875" y2="128.788" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="205.392" y1="124.573" x2="202.25" y2="130.828" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="210" y1="127.058" x2="206.5" y2="133.12" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="214.456" y1="129.806" x2="210.609" y2="135.655" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="218.744" y1="132.809" x2="214.564" y2="138.424" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="222.851" y1="136.056" x2="218.351" y2="141.418" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="226.762" y1="139.536" x2="221.958" y2="144.628" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="230.464" y1="143.238" x2="225.372" y2="148.042" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="233.944" y1="147.149" x2="223.985" y2="155.505" stroke="#222" stroke-width="1.8" stroke-linecap="round"/><text x="114.441" y="166.576" font-size="12" text-anchor="middle" font-weight="normal" fill="#333" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">0</text><text x="146.071" y="145.773" font-size="12" text-anchor="middle" font-weight="normal" fill="#333" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">1</text><text x="183.929" y="145.773" font-size="12" text-anchor="middle" font-weight="normal" fill="#333" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">2</text><text x="215.559" y="166.576" font-size="12" text-anchor="middle" font-weight="normal" fill="#333" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">3</text><text x="165" y="170" font-size="24" text-anchor="middle" font-weight="bold" fill="#333" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">V</text><line x1="165" y1="205" x2="150.488" y2="80.8452" stroke="#c0392b" stroke-width="2.6" stroke-linecap="round"/><circle cx="165" cy="205" r="6" fill="#c0392b" stroke="#7b241c" stroke-width="1.5"/></svg><div class="caption">3V端子を使った電圧計</div></div>
+    </div>
+
+    <div class="point-box">
+      <span class="label">★ 覚えよう!</span>
+      <ul>
+        <li>mA→A、mV→V……1000で割る(250mA＝0.25A)</li>
+        <li>使っている端子に合った目盛りを読む</li>
+        <li>最小の目盛りの10分の1まで目分量で読む(15V端子は0.5Vごと、3V端子は0.1Vごと)</li>
+      </ul>
+    </div>
+
+    <div class="word-bank-inline">
+      <div class="wb-title">📚 語群 ― タップして選び、説明文の空欄をタップ!</div>
+      <div class="wb-words"></div>
+    </div>
+  </div>
+
+  <div class="minitest-block">
+    <div class="mt-block-title">✏️ ミニテスト(全4問)</div>
+
+    <div class="q4" data-correct="b">
+      <div class="q4-stem"><span class="q4-num">問1</span>250mAは何Aか。</div>
+      <div class="q4-choices">
+        <button class="q4-c" data-v="a">ア:0.025A</button>
+        <button class="q4-c" data-v="b">イ:0.25A</button>
+        <button class="q4-c" data-v="c">ウ:2.5A</button>
+        <button class="q4-c" data-v="d">エ:250A</button>
+      </div>
+      <div class="q4-exp">正解は<strong>イ</strong>。250÷1000＝0.25Aです。</div>
+    </div>
+
+    <div class="q4" data-correct="d">
+      <div class="q4-stem"><span class="q4-num">問2</span>300mVは何Vか。</div>
+      <div class="q4-choices">
+        <button class="q4-c" data-v="a">ア:0.03V</button>
+        <button class="q4-c" data-v="b">イ:3V</button>
+        <button class="q4-c" data-v="c">ウ:30V</button>
+        <button class="q4-c" data-v="d">エ:0.3V</button>
+      </div>
+      <div class="q4-exp">正解は<strong>エ</strong>。300÷1000＝0.3Vです。</div>
+    </div>
+
+<div class="figure"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 225" width="330" style="max-width:100%;height:auto;display:block;margin:0 auto" role="img" aria-label="V計の目盛り(15V)"><rect x="6" y="42" width="318" height="178" rx="14" fill="#fffdf5" stroke="#666" stroke-width="2"/><rect x="12" y="8" width="56" height="26" rx="6" fill="#eee" stroke="#888" stroke-width="1.4"/><text x="40" y="26" font-size="13" text-anchor="middle" font-weight="normal" fill="#333" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">300V</text><rect x="94" y="8" width="56" height="26" rx="6" fill="#ffd9a8" stroke="#c0752b" stroke-width="2.2"/><text x="122" y="26" font-size="13" text-anchor="middle" font-weight="bold" fill="#333" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">15V</text><rect x="176" y="8" width="56" height="26" rx="6" fill="#eee" stroke="#888" stroke-width="1.4"/><text x="204" y="26" font-size="13" text-anchor="middle" font-weight="normal" fill="#333" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">3V</text><rect x="258" y="8" width="56" height="26" rx="6" fill="#eee" stroke="#888" stroke-width="1.4"/><text x="286" y="26" font-size="13" text-anchor="middle" font-weight="normal" fill="#333" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">＋</text><path d="M 66.95 122.72 A 128 128 0 0 1 263.05 122.72" fill="none" stroke="#444" stroke-width="1.4" stroke-linecap="round"/><line x1="66.9463" y1="122.723" x2="76.9049" y2="131.079" stroke="#222" stroke-width="1.8" stroke-linecap="round"/><line x1="71.8962" y1="117.161" x2="76.9878" y2="121.965" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="77.1611" y1="111.896" x2="81.9648" y2="116.988" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="82.7232" y1="106.946" x2="87.2227" y2="112.309" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="88.5637" y1="102.328" x2="92.7438" y2="107.943" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="94.6629" y1="98.0576" x2="98.5094" y2="103.906" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="101" y1="94.1487" x2="104.5" y2="100.211" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="107.554" y1="90.615" x2="110.695" y2="96.8705" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="114.302" y1="87.4683" x2="117.074" y2="93.8959" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="121.221" y1="84.7193" x2="123.616" y2="91.2972" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="128.289" y1="82.3773" x2="132.018" y2="94.8312" stroke="#222" stroke-width="1.8" stroke-linecap="round"/><line x1="135.481" y1="80.4503" x2="137.095" y2="87.2616" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="142.773" y1="78.9446" x2="143.989" y2="85.8383" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="150.14" y1="77.8655" x2="150.953" y2="84.8182" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="157.557" y1="77.2166" x2="157.964" y2="84.2047" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="165" y1="77" x2="165" y2="84" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="172.443" y1="77.2166" x2="172.036" y2="84.2047" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="179.86" y1="77.8655" x2="179.047" y2="84.8182" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="187.227" y1="78.9446" x2="186.011" y2="85.8383" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="194.519" y1="80.4503" x2="192.905" y2="87.2616" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="201.711" y1="82.3773" x2="197.982" y2="94.8312" stroke="#222" stroke-width="1.8" stroke-linecap="round"/><line x1="208.779" y1="84.7193" x2="206.384" y2="91.2972" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="215.698" y1="87.4683" x2="212.926" y2="93.8959" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="222.446" y1="90.615" x2="219.305" y2="96.8705" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="229" y1="94.1487" x2="225.5" y2="100.211" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="235.337" y1="98.0576" x2="231.491" y2="103.906" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="241.436" y1="102.328" x2="237.256" y2="107.943" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="247.277" y1="106.946" x2="242.777" y2="112.309" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="252.839" y1="111.896" x2="248.035" y2="116.988" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="258.104" y1="117.161" x2="253.012" y2="121.965" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="263.054" y1="122.723" x2="253.095" y2="131.079" stroke="#222" stroke-width="1.8" stroke-linecap="round"/><text x="56.9877" y="118.367" font-size="12" text-anchor="middle" font-weight="normal" fill="#333" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">0</text><text x="124.561" y="73.9235" font-size="12" text-anchor="middle" font-weight="normal" fill="#333" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">5</text><text x="205.439" y="73.9235" font-size="12" text-anchor="middle" font-weight="normal" fill="#333" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">10</text><text x="273.012" y="118.367" font-size="12" text-anchor="middle" font-weight="normal" fill="#333" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">15</text><path d="M 96.06 147.15 A 90 90 0 0 1 233.94 147.15" fill="none" stroke="#444" stroke-width="1.4" stroke-linecap="round"/><line x1="96.056" y1="147.149" x2="106.015" y2="155.505" stroke="#222" stroke-width="1.8" stroke-linecap="round"/><line x1="99.5364" y1="143.238" x2="104.628" y2="148.042" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="103.238" y1="139.536" x2="108.042" y2="144.628" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="107.149" y1="136.056" x2="111.649" y2="141.418" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="111.256" y1="132.809" x2="115.436" y2="138.424" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="115.544" y1="129.806" x2="119.391" y2="135.655" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="120" y1="127.058" x2="123.5" y2="133.12" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="124.608" y1="124.573" x2="127.75" y2="130.828" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="129.353" y1="122.361" x2="132.125" y2="128.788" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="134.218" y1="120.428" x2="136.612" y2="127.006" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="139.188" y1="118.781" x2="142.916" y2="131.235" stroke="#222" stroke-width="1.8" stroke-linecap="round"/><line x1="144.245" y1="117.426" x2="145.859" y2="124.237" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="149.372" y1="116.367" x2="150.587" y2="123.261" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="154.552" y1="115.609" x2="155.364" y2="122.561" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="159.767" y1="115.152" x2="160.174" y2="122.14" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="165" y1="115" x2="165" y2="122" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="170.233" y1="115.152" x2="169.826" y2="122.14" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="175.448" y1="115.609" x2="174.636" y2="122.561" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="180.628" y1="116.367" x2="179.413" y2="123.261" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="185.755" y1="117.426" x2="184.141" y2="124.237" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="190.812" y1="118.781" x2="187.084" y2="131.235" stroke="#222" stroke-width="1.8" stroke-linecap="round"/><line x1="195.782" y1="120.428" x2="193.388" y2="127.006" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="200.647" y1="122.361" x2="197.875" y2="128.788" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="205.392" y1="124.573" x2="202.25" y2="130.828" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="210" y1="127.058" x2="206.5" y2="133.12" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="214.456" y1="129.806" x2="210.609" y2="135.655" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="218.744" y1="132.809" x2="214.564" y2="138.424" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="222.851" y1="136.056" x2="218.351" y2="141.418" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="226.762" y1="139.536" x2="221.958" y2="144.628" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="230.464" y1="143.238" x2="225.372" y2="148.042" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="233.944" y1="147.149" x2="223.985" y2="155.505" stroke="#222" stroke-width="1.8" stroke-linecap="round"/><text x="114.441" y="166.576" font-size="12" text-anchor="middle" font-weight="normal" fill="#333" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">0</text><text x="146.071" y="145.773" font-size="12" text-anchor="middle" font-weight="normal" fill="#333" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">1</text><text x="183.929" y="145.773" font-size="12" text-anchor="middle" font-weight="normal" fill="#333" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">2</text><text x="215.559" y="166.576" font-size="12" text-anchor="middle" font-weight="normal" fill="#333" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">3</text><text x="165" y="170" font-size="24" text-anchor="middle" font-weight="bold" fill="#333" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">V</text><line x1="165" y1="205" x2="221.1" y2="93.2959" stroke="#c0392b" stroke-width="2.6" stroke-linecap="round"/><circle cx="165" cy="205" r="6" fill="#c0392b" stroke="#7b241c" stroke-width="1.5"/></svg><div class="caption">15V端子を使った電圧計</div></div>
+    <div class="q4" data-correct="d">
+      <div class="q4-stem"><span class="q4-num">問3</span>図の電圧計(15V端子)の目盛りを読め。</div>
+      <div class="q4-choices">
+        <button class="q4-c" data-v="a">ア:11.0V</button>
+        <button class="q4-c" data-v="b">イ:12.0V</button>
+        <button class="q4-c" data-v="c">ウ:2.30V</button>
+        <button class="q4-c" data-v="d">エ:11.5V</button>
+      </div>
+      <div class="q4-exp">正解は<strong>エ</strong>。最小目盛りは0.5Vです。針は11.0と12.0のちょうど中間の11.5Vを示しています。2.30Vは、3Vの目盛りを読んでしまった誤りです。</div>
+    </div>
+
+<div class="figure"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 225" width="330" style="max-width:100%;height:auto;display:block;margin:0 auto" role="img" aria-label="V計の目盛り(3V)"><rect x="6" y="42" width="318" height="178" rx="14" fill="#fffdf5" stroke="#666" stroke-width="2"/><rect x="12" y="8" width="56" height="26" rx="6" fill="#eee" stroke="#888" stroke-width="1.4"/><text x="40" y="26" font-size="13" text-anchor="middle" font-weight="normal" fill="#333" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">300V</text><rect x="94" y="8" width="56" height="26" rx="6" fill="#eee" stroke="#888" stroke-width="1.4"/><text x="122" y="26" font-size="13" text-anchor="middle" font-weight="normal" fill="#333" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">15V</text><rect x="176" y="8" width="56" height="26" rx="6" fill="#ffd9a8" stroke="#c0752b" stroke-width="2.2"/><text x="204" y="26" font-size="13" text-anchor="middle" font-weight="bold" fill="#333" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">3V</text><rect x="258" y="8" width="56" height="26" rx="6" fill="#eee" stroke="#888" stroke-width="1.4"/><text x="286" y="26" font-size="13" text-anchor="middle" font-weight="normal" fill="#333" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">＋</text><path d="M 66.95 122.72 A 128 128 0 0 1 263.05 122.72" fill="none" stroke="#444" stroke-width="1.4" stroke-linecap="round"/><line x1="66.9463" y1="122.723" x2="76.9049" y2="131.079" stroke="#222" stroke-width="1.8" stroke-linecap="round"/><line x1="71.8962" y1="117.161" x2="76.9878" y2="121.965" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="77.1611" y1="111.896" x2="81.9648" y2="116.988" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="82.7232" y1="106.946" x2="87.2227" y2="112.309" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="88.5637" y1="102.328" x2="92.7438" y2="107.943" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="94.6629" y1="98.0576" x2="98.5094" y2="103.906" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="101" y1="94.1487" x2="104.5" y2="100.211" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="107.554" y1="90.615" x2="110.695" y2="96.8705" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="114.302" y1="87.4683" x2="117.074" y2="93.8959" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="121.221" y1="84.7193" x2="123.616" y2="91.2972" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="128.289" y1="82.3773" x2="132.018" y2="94.8312" stroke="#222" stroke-width="1.8" stroke-linecap="round"/><line x1="135.481" y1="80.4503" x2="137.095" y2="87.2616" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="142.773" y1="78.9446" x2="143.989" y2="85.8383" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="150.14" y1="77.8655" x2="150.953" y2="84.8182" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="157.557" y1="77.2166" x2="157.964" y2="84.2047" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="165" y1="77" x2="165" y2="84" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="172.443" y1="77.2166" x2="172.036" y2="84.2047" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="179.86" y1="77.8655" x2="179.047" y2="84.8182" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="187.227" y1="78.9446" x2="186.011" y2="85.8383" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="194.519" y1="80.4503" x2="192.905" y2="87.2616" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="201.711" y1="82.3773" x2="197.982" y2="94.8312" stroke="#222" stroke-width="1.8" stroke-linecap="round"/><line x1="208.779" y1="84.7193" x2="206.384" y2="91.2972" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="215.698" y1="87.4683" x2="212.926" y2="93.8959" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="222.446" y1="90.615" x2="219.305" y2="96.8705" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="229" y1="94.1487" x2="225.5" y2="100.211" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="235.337" y1="98.0576" x2="231.491" y2="103.906" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="241.436" y1="102.328" x2="237.256" y2="107.943" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="247.277" y1="106.946" x2="242.777" y2="112.309" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="252.839" y1="111.896" x2="248.035" y2="116.988" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="258.104" y1="117.161" x2="253.012" y2="121.965" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="263.054" y1="122.723" x2="253.095" y2="131.079" stroke="#222" stroke-width="1.8" stroke-linecap="round"/><text x="56.9877" y="118.367" font-size="12" text-anchor="middle" font-weight="normal" fill="#333" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">0</text><text x="124.561" y="73.9235" font-size="12" text-anchor="middle" font-weight="normal" fill="#333" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">5</text><text x="205.439" y="73.9235" font-size="12" text-anchor="middle" font-weight="normal" fill="#333" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">10</text><text x="273.012" y="118.367" font-size="12" text-anchor="middle" font-weight="normal" fill="#333" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">15</text><path d="M 96.06 147.15 A 90 90 0 0 1 233.94 147.15" fill="none" stroke="#444" stroke-width="1.4" stroke-linecap="round"/><line x1="96.056" y1="147.149" x2="106.015" y2="155.505" stroke="#222" stroke-width="1.8" stroke-linecap="round"/><line x1="99.5364" y1="143.238" x2="104.628" y2="148.042" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="103.238" y1="139.536" x2="108.042" y2="144.628" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="107.149" y1="136.056" x2="111.649" y2="141.418" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="111.256" y1="132.809" x2="115.436" y2="138.424" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="115.544" y1="129.806" x2="119.391" y2="135.655" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="120" y1="127.058" x2="123.5" y2="133.12" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="124.608" y1="124.573" x2="127.75" y2="130.828" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="129.353" y1="122.361" x2="132.125" y2="128.788" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="134.218" y1="120.428" x2="136.612" y2="127.006" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="139.188" y1="118.781" x2="142.916" y2="131.235" stroke="#222" stroke-width="1.8" stroke-linecap="round"/><line x1="144.245" y1="117.426" x2="145.859" y2="124.237" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="149.372" y1="116.367" x2="150.587" y2="123.261" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="154.552" y1="115.609" x2="155.364" y2="122.561" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="159.767" y1="115.152" x2="160.174" y2="122.14" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="165" y1="115" x2="165" y2="122" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="170.233" y1="115.152" x2="169.826" y2="122.14" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="175.448" y1="115.609" x2="174.636" y2="122.561" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="180.628" y1="116.367" x2="179.413" y2="123.261" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="185.755" y1="117.426" x2="184.141" y2="124.237" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="190.812" y1="118.781" x2="187.084" y2="131.235" stroke="#222" stroke-width="1.8" stroke-linecap="round"/><line x1="195.782" y1="120.428" x2="193.388" y2="127.006" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="200.647" y1="122.361" x2="197.875" y2="128.788" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="205.392" y1="124.573" x2="202.25" y2="130.828" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="210" y1="127.058" x2="206.5" y2="133.12" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="214.456" y1="129.806" x2="210.609" y2="135.655" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="218.744" y1="132.809" x2="214.564" y2="138.424" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="222.851" y1="136.056" x2="218.351" y2="141.418" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="226.762" y1="139.536" x2="221.958" y2="144.628" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="230.464" y1="143.238" x2="225.372" y2="148.042" stroke="#222" stroke-width="1" stroke-linecap="round"/><line x1="233.944" y1="147.149" x2="223.985" y2="155.505" stroke="#222" stroke-width="1.8" stroke-linecap="round"/><text x="114.441" y="166.576" font-size="12" text-anchor="middle" font-weight="normal" fill="#333" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">0</text><text x="146.071" y="145.773" font-size="12" text-anchor="middle" font-weight="normal" fill="#333" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">1</text><text x="183.929" y="145.773" font-size="12" text-anchor="middle" font-weight="normal" fill="#333" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">2</text><text x="215.559" y="166.576" font-size="12" text-anchor="middle" font-weight="normal" fill="#333" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">3</text><text x="165" y="170" font-size="24" text-anchor="middle" font-weight="bold" fill="#333" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">V</text><line x1="165" y1="205" x2="227.5" y2="96.7468" stroke="#c0392b" stroke-width="2.6" stroke-linecap="round"/><circle cx="165" cy="205" r="6" fill="#c0392b" stroke="#7b241c" stroke-width="1.5"/></svg><div class="caption">3V端子を使った電圧計</div></div>
+    <div class="q4" data-correct="b">
+      <div class="q4-stem"><span class="q4-num">問4</span>図の電圧計(3V端子)の目盛りを読め。</div>
+      <div class="q4-choices">
+        <button class="q4-c" data-v="a">ア:2.04V</button>
+        <button class="q4-c" data-v="b">イ:2.40V</button>
+        <button class="q4-c" data-v="c">ウ:2.20V</button>
+        <button class="q4-c" data-v="d">エ:12.0V</button>
+      </div>
+      <div class="q4-exp">正解は<strong>イ</strong>。最小目盛りは0.1Vです。2Vから4目盛り進んだ2.40Vです。12.0Vは、15Vの目盛りを読んでしまった誤りです。</div>
+    </div>
+
+    <div class="mt-block-result"></div>
+    <div style="text-align:center;"><button class="mt-block-reset">↻ もう一度</button></div>
+  </div>
+
+  <div class="ranking">
+    <h3>🏆 ベストタイム</h3>
+    <ul id="ranking-denki2-u4" class="ranking-list"></ul>
+    <button class="btn outline" onclick="clearRanking('denki2-u4')" style="margin-top:6px;font-size:12px;padding:4px 12px;">記録をリセット</button>
+  </div>
+</div>
+
+
+<div class="next-actions">
+  <h3>🎉 すべての単元、おつかれさま!</h3>
+  <p>次は問題に挑戦しよう!順番にチャレンジするのがおすすめです。</p>
+  <div class="links">
+    <a href="denki2_practice.html">📝 練習問題へ</a>
+    <a href="denki2_check.html">📋 確認問題へ</a>
+  </div>
+</div>
+
+<nav class="pagenav">
+  <a href="index.html">
+    <span class="label">◀ 単元表</span>
+    <span class="title">全単元一覧へ</span>
+  </a>
+  <a href="denki2_practice.html" class="next">
+    <span class="label">NEXT ▶</span>
+    <span class="title">練習問題</span>
+  </a>
+</nav>
+
+</main>
+</div>
+
+<!-- 共通モーダル類 -->
+<div class="example-modal" id="example-modal">
+  <div class="example-content" id="example-content"></div>
+</div>
+
+<div class="pass-overlay" id="pass-overlay">
+  <div class="pass-dialog">
+    <div class="pass-emoji">🎉</div>
+    <h2>合 格!</h2>
+    <p>すべて正解!よくできました!</p>
+    <div class="pass-time" id="pass-time-display">0:00.0</div>
+    <p style="font-size:13px;color:#666;margin-top:6px;">ランキングに記録されました</p>
+    <div class="pass-actions">
+      <button class="btn outline" onclick="document.getElementById('pass-overlay').classList.remove('show')">閉じる</button>
+    </div>
+  </div>
+</div>
+
+<div class="fail-toast" id="fail-toast"></div>
+<div class="confetti" id="confetti"></div>
+
+<script src="app.js"></script>
+</body>
+</html>

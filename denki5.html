@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>第5講 電気の計算 | GAMBA中学理科</title>
+<link rel="stylesheet" href="app.css">
+</head>
+<body data-page="denki5">
+
+<nav class="topnav">
+  <span class="brand">⚡ GAMBA 中学理科 電気</span>
+  <span class="sep">|</span>
+  <a href="index.html">📊 単元表</a>
+</nav>
+
+<div class="wrap">
+
+<header class="hero">
+  <div class="crumb">第5講 / 回路の電流・電圧・抵抗を求めよう</div>
+  <h1>電気の計算 <span class="stars">★★★</span></h1>
+  <p class="sub">直列回路・並列回路、そしてそれらが組み合わさった回路で、電流・電圧・抵抗を順に求めていく方法を学びます。</p>
+</header>
+
+<main>
+<div class="unit">
+  <div class="unit-title"><span class="num">1</span>直列回路の計算</div>
+
+  <div class="stage challenge" data-ch-id="denki5-u1" data-target="#denki5-u1-readbox">
+    <div class="stage-head">
+      <span class="stage-label read">📖 説明</span>
+      <div class="stage-actions">
+        <span class="challenge-timer" style="display:none;">0:00.0</span>
+        <button class="ch-btn start">🎯 チャレンジ開始</button>
+        <button class="ch-btn judge" style="display:none;">✓ 判定</button>
+        <button class="ch-btn example" style="display:none;">📖 手本</button>
+        <button class="ch-btn reset" style="display:none;">↻ リセット</button>
+        <button class="ch-btn cancel" style="display:none;">⏹ 中断</button>
+      </div>
+    </div>
+
+    <div class="read-box" id="denki5-u1-readbox">
+<p>直列回路では、次のことがいえます。</p>
+
+<p>①どの抵抗にも<span class="kw-blank" data-a="同じ">同じ</span>大きさの電流が流れる。<br>②各抵抗にかかる電圧の<span class="kw-blank" data-a="和">和</span>が、電源の電圧になる。<br>③全体の抵抗は、各抵抗の<span class="kw-blank" data-a="和">和</span>になる。</p>
+
+<p>【例】2Ωの抵抗Aと6Ωの抵抗Bが直列につながれ、1.5Aの電流が流れています。</p>
+
+<div class="figure"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 206" width="350" style="max-width:100%;height:auto;display:block;margin:0 auto" role="img" aria-label="回路"><polygon points="30,66 288,66 288,140 30,140" fill="none" stroke="#333" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><rect x="93" y="57" width="46" height="18" rx="0" fill="#fff" stroke="#333" stroke-width="2"/><text x="116" y="51" font-size="13" text-anchor="middle" font-weight="normal" fill="#333" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">A 2Ω</text><rect x="179" y="57" width="46" height="18" rx="0" fill="#fff" stroke="#333" stroke-width="2"/><text x="202" y="51" font-size="13" text-anchor="middle" font-weight="normal" fill="#333" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">B 6Ω</text><rect x="143" y="120" width="32" height="40" rx="0" fill="#fff"/><line x1="155" y1="124" x2="155" y2="156" stroke="#333" stroke-width="2" stroke-linecap="round"/><line x1="163" y1="131" x2="163" y2="149" stroke="#333" stroke-width="4.5" stroke-linecap="round"/><line x1="145" y1="140" x2="155" y2="140" stroke="#333" stroke-width="2" stroke-linecap="round"/><line x1="163" y1="140" x2="173" y2="140" stroke="#333" stroke-width="2" stroke-linecap="round"/><line x1="93" y1="38" x2="139" y2="38" stroke="#555" stroke-width="1.3" stroke-linecap="round"/><polygon points="93,38 98.4378,35.4643 98.4378,40.5357" fill="#555" stroke="#555" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/><polygon points="139,38 133.562,40.5357 133.562,35.4643" fill="#555" stroke="#555" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/><text x="116" y="33" font-size="13" text-anchor="middle" font-weight="normal" fill="#555" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif"><tspan font-style="italic">V</tspan><tspan font-size="9" baseline-shift="sub">A</tspan></text><line x1="93" y1="38" x2="93" y2="56" stroke="#555" stroke-width="1" stroke-linecap="round" stroke-dasharray="3,3"/><line x1="139" y1="38" x2="139" y2="56" stroke="#555" stroke-width="1" stroke-linecap="round" stroke-dasharray="3,3"/><line x1="179" y1="38" x2="225" y2="38" stroke="#555" stroke-width="1.3" stroke-linecap="round"/><polygon points="179,38 184.438,35.4643 184.438,40.5357" fill="#555" stroke="#555" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/><polygon points="225,38 219.562,40.5357 219.562,35.4643" fill="#555" stroke="#555" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/><text x="202" y="33" font-size="13" text-anchor="middle" font-weight="normal" fill="#555" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif"><tspan font-style="italic">V</tspan><tspan font-size="9" baseline-shift="sub">B</tspan></text><line x1="179" y1="38" x2="179" y2="56" stroke="#555" stroke-width="1" stroke-linecap="round" stroke-dasharray="3,3"/><line x1="225" y1="38" x2="225" y2="56" stroke="#555" stroke-width="1" stroke-linecap="round" stroke-dasharray="3,3"/><line x1="30" y1="184" x2="288" y2="184" stroke="#555" stroke-width="1.3" stroke-linecap="round"/><polygon points="30,184 35.4378,181.464 35.4378,186.536" fill="#555" stroke="#555" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/><polygon points="288,184 282.562,186.536 282.562,181.464" fill="#555" stroke="#555" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/><text x="159" y="179" font-size="13" text-anchor="middle" font-weight="normal" fill="#555" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif"><tspan font-style="italic">V</tspan><tspan font-size="9" baseline-shift="sub">C</tspan></text><line x1="30" y1="184" x2="30" y2="146" stroke="#555" stroke-width="1" stroke-linecap="round" stroke-dasharray="3,3"/><line x1="288" y1="184" x2="288" y2="146" stroke="#555" stroke-width="1" stroke-linecap="round" stroke-dasharray="3,3"/><line x1="30" y1="119" x2="30" y2="87" stroke="#333" stroke-width="2.2" stroke-linecap="round"/><polygon points="30,87 33.3809,94.2505 26.6191,94.2505" fill="#333" stroke="#333" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/><text x="20" y="108" font-size="14" text-anchor="end" font-weight="bold" fill="#C0392B" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">1.5A</text></svg><div class="caption">直列回路の例(A:2Ω、B:6Ω、電流1.5A)</div></div>
+
+<p>Aにかかる電圧は、1.5×2＝3V。Bにかかる電圧は、1.5×6＝9V。電源の電圧は、3＋9＝12Vです。全体の抵抗は、2＋6＝8Ω(12V÷1.5A＝8Ωと同じ)になります。</p>
+    </div>
+
+    <div class="point-box">
+      <span class="label">★ 覚えよう!</span>
+      <ul>
+        <li>直列回路……電流は、どの抵抗も同じ</li>
+        <li>電圧は、各抵抗の電圧の和＝電源の電圧</li>
+        <li>全体の抵抗は、各抵抗の和</li>
+      </ul>
+    </div>
+
+    <div class="word-bank-inline">
+      <div class="wb-title">📚 語群 ― タップして選び、説明文の空欄をタップ!</div>
+      <div class="wb-words"></div>
+    </div>
+  </div>
+
+  <div class="minitest-block">
+    <div class="mt-block-title">✏️ ミニテスト(全4問)</div>
+
+    <div class="q4" data-correct="c">
+      <div class="q4-stem"><span class="q4-num">問1</span>5Ωと10Ωの抵抗を直列につなぎ、0.6Aの電流を流した。5Ωの抵抗にかかる電圧は何Vか。</div>
+      <div class="q4-choices">
+        <button class="q4-c" data-v="a">ア:0.12V</button>
+        <button class="q4-c" data-v="b">イ:6V</button>
+        <button class="q4-c" data-v="c">ウ:3V</button>
+        <button class="q4-c" data-v="d">エ:9V</button>
+      </div>
+      <div class="q4-exp">正解は<strong>ウ</strong>。<i>E</i>＝<i>I</i>×<i>R</i>＝0.6×5＝3Vです。</div>
+    </div>
+
+    <div class="q4" data-correct="c">
+      <div class="q4-stem"><span class="q4-num">問2</span>(上の問題で)10Ωの抵抗にかかる電圧は何Vか。</div>
+      <div class="q4-choices">
+        <button class="q4-c" data-v="a">ア:0.06V</button>
+        <button class="q4-c" data-v="b">イ:16V</button>
+        <button class="q4-c" data-v="c">ウ:6V</button>
+        <button class="q4-c" data-v="d">エ:3V</button>
+      </div>
+      <div class="q4-exp">正解は<strong>ウ</strong>。直列なので、10Ωにも0.6Aが流れます。<i>E</i>＝0.6×10＝6Vです。</div>
+    </div>
+
+    <div class="q4" data-correct="a">
+      <div class="q4-stem"><span class="q4-num">問3</span>(上の問題で)電源の電圧は何Vか。</div>
+      <div class="q4-choices">
+        <button class="q4-c" data-v="a">ア:9V</button>
+        <button class="q4-c" data-v="b">イ:3V</button>
+        <button class="q4-c" data-v="c">ウ:6V</button>
+        <button class="q4-c" data-v="d">エ:15V</button>
+      </div>
+      <div class="q4-exp">正解は<strong>ア</strong>。各抵抗の電圧の和なので、3＋6＝9Vです。</div>
+    </div>
+
+    <div class="q4" data-correct="d">
+      <div class="q4-stem"><span class="q4-num">問4</span>5Ωと10Ωの抵抗を直列につないだときの、全体の抵抗は何Ωか。</div>
+      <div class="q4-choices">
+        <button class="q4-c" data-v="a">ア:3.3Ω</button>
+        <button class="q4-c" data-v="b">イ:50Ω</button>
+        <button class="q4-c" data-v="c">ウ:5Ω</button>
+        <button class="q4-c" data-v="d">エ:15Ω</button>
+      </div>
+      <div class="q4-exp">正解は<strong>エ</strong>。直列回路の全体の抵抗は、各抵抗の和なので、5＋10＝15Ωです。(9V÷0.6A＝15Ωと同じ)</div>
+    </div>
+
+    <div class="mt-block-result"></div>
+    <div style="text-align:center;"><button class="mt-block-reset">↻ もう一度</button></div>
+  </div>
+
+  <div class="ranking">
+    <h3>🏆 ベストタイム</h3>
+    <ul id="ranking-denki5-u1" class="ranking-list"></ul>
+    <button class="btn outline" onclick="clearRanking('denki5-u1')" style="margin-top:6px;font-size:12px;padding:4px 12px;">記録をリセット</button>
+  </div>
+</div>
+
+<div class="unit">
+  <div class="unit-title"><span class="num">2</span>並列回路の計算</div>
+
+  <div class="stage challenge" data-ch-id="denki5-u2" data-target="#denki5-u2-readbox">
+    <div class="stage-head">
+      <span class="stage-label read">📖 説明</span>
+      <div class="stage-actions">
+        <span class="challenge-timer" style="display:none;">0:00.0</span>
+        <button class="ch-btn start">🎯 チャレンジ開始</button>
+        <button class="ch-btn judge" style="display:none;">✓ 判定</button>
+        <button class="ch-btn example" style="display:none;">📖 手本</button>
+        <button class="ch-btn reset" style="display:none;">↻ リセット</button>
+        <button class="ch-btn cancel" style="display:none;">⏹ 中断</button>
+      </div>
+    </div>
+
+    <div class="read-box" id="denki5-u2-readbox">
+<p>並列回路では、次のことがいえます。</p>
+
+<p>①どの抵抗にも<span class="kw-blank" data-a="同じ">同じ</span>大きさの電圧(電源の電圧)がかかる。<br>②各抵抗を流れる電流の<span class="kw-blank" data-a="和">和</span>が、全体を流れる電流になる。</p>
+
+<p>【回路全体の抵抗】は、「電源の電圧÷<span class="kw-blank" data-a="全体を流れる電流">全体を流れる電流</span>」で求めます。</p>
+
+<p>【例】6Ωの抵抗Aと12Ωの抵抗Bが並列につながれ、12Vの電源につながれています。</p>
+
+<div class="figure"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 260" width="350" style="max-width:100%;height:auto;display:block;margin:0 auto" role="img" aria-label="回路"><polyline points="30,194 30,66 76.44,66" fill="none" stroke="#333" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><polyline points="241.56,66 288,66 288,194 30,194" fill="none" stroke="#333" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><line x1="76.44" y1="66" x2="241.56" y2="66" stroke="#333" stroke-width="2" stroke-linecap="round"/><line x1="76.44" y1="120" x2="241.56" y2="120" stroke="#333" stroke-width="2" stroke-linecap="round"/><line x1="76.44" y1="66" x2="76.44" y2="120" stroke="#333" stroke-width="2" stroke-linecap="round"/><line x1="241.56" y1="66" x2="241.56" y2="120" stroke="#333" stroke-width="2" stroke-linecap="round"/><circle cx="76.44" cy="66" r="3.4" fill="#333"/><circle cx="241.56" cy="66" r="3.4" fill="#333"/><circle cx="76.44" cy="120" r="3.4" fill="#333"/><circle cx="241.56" cy="120" r="3.4" fill="#333"/><rect x="136" y="57" width="46" height="18" rx="0" fill="#fff" stroke="#333" stroke-width="2"/><text x="159" y="51" font-size="13" text-anchor="middle" font-weight="normal" fill="#333" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">A 6Ω</text><rect x="136" y="111" width="46" height="18" rx="0" fill="#fff" stroke="#333" stroke-width="2"/><text x="159" y="105" font-size="13" text-anchor="middle" font-weight="normal" fill="#333" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">B 12Ω</text><rect x="143" y="174" width="32" height="40" rx="0" fill="#fff"/><line x1="155" y1="178" x2="155" y2="210" stroke="#333" stroke-width="2" stroke-linecap="round"/><line x1="163" y1="185" x2="163" y2="203" stroke="#333" stroke-width="4.5" stroke-linecap="round"/><line x1="145" y1="194" x2="155" y2="194" stroke="#333" stroke-width="2" stroke-linecap="round"/><line x1="163" y1="194" x2="173" y2="194" stroke="#333" stroke-width="2" stroke-linecap="round"/><text x="159" y="230" font-size="13" text-anchor="middle" font-weight="normal" fill="#333" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">12V</text><line x1="288" y1="114" x2="288" y2="146" stroke="#333" stroke-width="2.2" stroke-linecap="round"/><polygon points="288,146 284.619,138.75 291.381,138.75" fill="#333" stroke="#333" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/><text x="298" y="135" font-size="14" text-anchor="start" font-weight="bold" fill="#C0392B" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">全体の電流</text></svg><div class="caption">並列回路の例(Aは6Ω、Bは12Ω、電源12V)</div></div>
+
+<p>Aには12÷6＝2A、Bには12÷12＝1A流れます。全体の電流は、2＋1＝3Aです。全体の抵抗は、12V÷3A＝4Ωです。</p>
+    </div>
+
+    <div class="point-box">
+      <span class="label">★ 覚えよう!</span>
+      <ul>
+        <li>並列回路……どの抵抗にも電源と同じ電圧がかかる</li>
+        <li>電流は、各抵抗の電流の和が全体の電流</li>
+        <li>回路全体の抵抗＝電源の電圧÷全体を流れる電流</li>
+      </ul>
+    </div>
+
+    <div class="word-bank-inline">
+      <div class="wb-title">📚 語群 ― タップして選び、説明文の空欄をタップ!</div>
+      <div class="wb-words"></div>
+    </div>
+  </div>
+
+  <div class="minitest-block">
+    <div class="mt-block-title">✏️ ミニテスト(全4問)</div>
+
+    <div class="q4" data-correct="b">
+      <div class="q4-stem"><span class="q4-num">問1</span>12Ωと4Ωの抵抗を並列につなぎ、12Vの電源につないだ。12Ωの抵抗に流れる電流は何Aか。</div>
+      <div class="q4-choices">
+        <button class="q4-c" data-v="a">ア:3A</button>
+        <button class="q4-c" data-v="b">イ:1A</button>
+        <button class="q4-c" data-v="c">ウ:0.5A</button>
+        <button class="q4-c" data-v="d">エ:12A</button>
+      </div>
+      <div class="q4-exp">正解は<strong>イ</strong>。並列なので12Vがかかります。<i>I</i>＝12÷12＝1Aです。</div>
+    </div>
+
+    <div class="q4" data-correct="a">
+      <div class="q4-stem"><span class="q4-num">問2</span>(上の問題で)4Ωの抵抗に流れる電流は何Aか。</div>
+      <div class="q4-choices">
+        <button class="q4-c" data-v="a">ア:3A</button>
+        <button class="q4-c" data-v="b">イ:48A</button>
+        <button class="q4-c" data-v="c">ウ:0.33A</button>
+        <button class="q4-c" data-v="d">エ:8A</button>
+      </div>
+      <div class="q4-exp">正解は<strong>ア</strong>。<i>I</i>＝12÷4＝3Aです。</div>
+    </div>
+
+    <div class="q4" data-correct="c">
+      <div class="q4-stem"><span class="q4-num">問3</span>(上の問題で)全体を流れる電流は何Aか。</div>
+      <div class="q4-choices">
+        <button class="q4-c" data-v="a">ア:2A</button>
+        <button class="q4-c" data-v="b">イ:3A</button>
+        <button class="q4-c" data-v="c">ウ:4A</button>
+        <button class="q4-c" data-v="d">エ:1A</button>
+      </div>
+      <div class="q4-exp">正解は<strong>ウ</strong>。各抵抗の電流の和なので、1＋3＝4Aです。</div>
+    </div>
+
+    <div class="q4" data-correct="b">
+      <div class="q4-stem"><span class="q4-num">問4</span>(上の問題で)回路全体の抵抗は何Ωか。</div>
+      <div class="q4-choices">
+        <button class="q4-c" data-v="a">ア:16Ω</button>
+        <button class="q4-c" data-v="b">イ:3Ω</button>
+        <button class="q4-c" data-v="c">ウ:8Ω</button>
+        <button class="q4-c" data-v="d">エ:4Ω</button>
+      </div>
+      <div class="q4-exp">正解は<strong>イ</strong>。全体の抵抗＝電源の電圧÷全体の電流＝12÷4＝3Ωです。</div>
+    </div>
+
+    <div class="mt-block-result"></div>
+    <div style="text-align:center;"><button class="mt-block-reset">↻ もう一度</button></div>
+  </div>
+
+  <div class="ranking">
+    <h3>🏆 ベストタイム</h3>
+    <ul id="ranking-denki5-u2" class="ranking-list"></ul>
+    <button class="btn outline" onclick="clearRanking('denki5-u2')" style="margin-top:6px;font-size:12px;padding:4px 12px;">記録をリセット</button>
+  </div>
+</div>
+
+<div class="unit">
+  <div class="unit-title"><span class="num">3</span>直列と並列がまざった回路</div>
+
+  <div class="stage challenge" data-ch-id="denki5-u3" data-target="#denki5-u3-readbox">
+    <div class="stage-head">
+      <span class="stage-label read">📖 説明</span>
+      <div class="stage-actions">
+        <span class="challenge-timer" style="display:none;">0:00.0</span>
+        <button class="ch-btn start">🎯 チャレンジ開始</button>
+        <button class="ch-btn judge" style="display:none;">✓ 判定</button>
+        <button class="ch-btn example" style="display:none;">📖 手本</button>
+        <button class="ch-btn reset" style="display:none;">↻ リセット</button>
+        <button class="ch-btn cancel" style="display:none;">⏹ 中断</button>
+      </div>
+    </div>
+
+    <div class="read-box" id="denki5-u3-readbox">
+<p>直列と並列がまざった回路は、次の順に求めていきます。わからないところを、まず1つずつ求めましょう。</p>
+
+<p>①<span class="kw-blank" data-a="並列部分">並列部分</span>にかかる電圧から、各枝(B・C)に流れる電流を求める。<br>②枝の電流の和が、直列部分(A)を流れる<span class="kw-blank" data-a="全体の電流">全体の電流</span>になる。<br>③直列部分(A)にかかる電圧を、<i>E</i>＝<i>I</i>×<i>R</i>で求める。<br>④並列部分の電圧と直列部分の電圧の<span class="kw-blank" data-a="和">和</span>が、電源の電圧になる。<br>⑤全体の抵抗は、電源の電圧÷全体を流れる電流で求める。</p>
+
+<p>必ず、抵抗の両端にかかる電圧と、抵抗を流れる電流を求めてから、オームの法則を使いましょう。</p>
+
+<div class="figure"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 260" width="350" style="max-width:100%;height:auto;display:block;margin:0 auto" role="img" aria-label="回路"><polyline points="30,194 30,66 138.36,66" fill="none" stroke="#333" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><polyline points="241.56,66 288,66 288,194 30,194" fill="none" stroke="#333" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><line x1="138.36" y1="66" x2="241.56" y2="66" stroke="#333" stroke-width="2" stroke-linecap="round"/><line x1="138.36" y1="120" x2="241.56" y2="120" stroke="#333" stroke-width="2" stroke-linecap="round"/><line x1="138.36" y1="66" x2="138.36" y2="120" stroke="#333" stroke-width="2" stroke-linecap="round"/><line x1="241.56" y1="66" x2="241.56" y2="120" stroke="#333" stroke-width="2" stroke-linecap="round"/><circle cx="138.36" cy="66" r="3.4" fill="#333"/><circle cx="241.56" cy="66" r="3.4" fill="#333"/><circle cx="138.36" cy="120" r="3.4" fill="#333"/><circle cx="241.56" cy="120" r="3.4" fill="#333"/><rect x="166.96" y="57" width="46" height="18" rx="0" fill="#fff" stroke="#333" stroke-width="2"/><text x="189.96" y="51" font-size="13" text-anchor="middle" font-weight="normal" fill="#333" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">B 6Ω</text><rect x="166.96" y="111" width="46" height="18" rx="0" fill="#fff" stroke="#333" stroke-width="2"/><text x="189.96" y="105" font-size="13" text-anchor="middle" font-weight="normal" fill="#333" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">C 3Ω</text><rect x="61.18" y="57" width="46" height="18" rx="0" fill="#fff" stroke="#333" stroke-width="2"/><text x="84.18" y="51" font-size="13" text-anchor="middle" font-weight="normal" fill="#333" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">A 1Ω</text><rect x="143" y="174" width="32" height="40" rx="0" fill="#fff"/><line x1="155" y1="178" x2="155" y2="210" stroke="#333" stroke-width="2" stroke-linecap="round"/><line x1="163" y1="185" x2="163" y2="203" stroke="#333" stroke-width="4.5" stroke-linecap="round"/><line x1="145" y1="194" x2="155" y2="194" stroke="#333" stroke-width="2" stroke-linecap="round"/><line x1="163" y1="194" x2="173" y2="194" stroke="#333" stroke-width="2" stroke-linecap="round"/><line x1="138.36" y1="156" x2="241.56" y2="156" stroke="#555" stroke-width="1.3" stroke-linecap="round"/><polygon points="138.36,156 143.798,153.464 143.798,158.536" fill="#555" stroke="#555" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/><polygon points="241.56,156 236.122,158.536 236.122,153.464" fill="#555" stroke="#555" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/><text x="189.96" y="151" font-size="13" text-anchor="middle" font-weight="normal" fill="#555" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">6V</text><line x1="138.36" y1="156" x2="138.36" y2="130" stroke="#555" stroke-width="1" stroke-linecap="round" stroke-dasharray="3,3"/><line x1="241.56" y1="156" x2="241.56" y2="130" stroke="#555" stroke-width="1" stroke-linecap="round" stroke-dasharray="3,3"/><line x1="30" y1="238" x2="288" y2="238" stroke="#555" stroke-width="1.3" stroke-linecap="round"/><polygon points="30,238 35.4378,235.464 35.4378,240.536" fill="#555" stroke="#555" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/><polygon points="288,238 282.562,240.536 282.562,235.464" fill="#555" stroke="#555" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/><text x="159" y="233" font-size="13" text-anchor="middle" font-weight="normal" fill="#555" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif"><tspan font-style="italic">x</tspan>V</text><line x1="30" y1="238" x2="30" y2="200" stroke="#555" stroke-width="1" stroke-linecap="round" stroke-dasharray="3,3"/><line x1="288" y1="238" x2="288" y2="200" stroke="#555" stroke-width="1" stroke-linecap="round" stroke-dasharray="3,3"/><text x="150" y="82" font-size="14" text-anchor="middle" font-weight="bold" fill="#C0392B" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">ア</text><text x="150" y="136" font-size="14" text-anchor="middle" font-weight="bold" fill="#C0392B" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">イ</text><text x="262" y="58" font-size="14" text-anchor="middle" font-weight="bold" fill="#C0392B" font-family="Hiragino Maru Gothic ProN,Yu Gothic,Meiryo,sans-serif">ウ</text></svg><div class="caption">直列と並列がまざった回路(Aは1Ω、Bは6Ω、Cは3Ω)</div></div>
+
+<p>【例】並列部分(BとC)にかかる電圧が6Vのとき、Bに流れる電流は6÷6＝1A、Cに流れる電流は6÷3＝2A、全体の電流は3Aです。Aにかかる電圧は3×1＝3V、電源の電圧は6＋3＝9V、全体の抵抗は9÷3＝3Ωです。</p>
+    </div>
+
+    <div class="point-box">
+      <span class="label">★ 覚えよう!</span>
+      <ul>
+        <li>並列部分から求める(電圧は等しい→各枝の電流→和が全体の電流)</li>
+        <li>直列部分の電圧は、全体の電流×抵抗</li>
+        <li>電源の電圧＝並列部分の電圧＋直列部分の電圧</li>
+        <li>全体の抵抗＝電源の電圧÷全体の電流</li>
+      </ul>
+    </div>
+
+    <div class="word-bank-inline">
+      <div class="wb-title">📚 語群 ― タップして選び、説明文の空欄をタップ!</div>
+      <div class="wb-words"></div>
+    </div>
+  </div>
+
+  <div class="minitest-block">
+    <div class="mt-block-title">✏️ ミニテスト(全4問)</div>
+
+    <div class="q4" data-correct="d">
+      <div class="q4-stem"><span class="q4-num">問1</span>図のBに流れる電流は何Aか。(BとCにかかる電圧は6V)</div>
+      <div class="q4-choices">
+        <button class="q4-c" data-v="a">ア:0.5A</button>
+        <button class="q4-c" data-v="b">イ:2A</button>
+        <button class="q4-c" data-v="c">ウ:6A</button>
+        <button class="q4-c" data-v="d">エ:1A</button>
+      </div>
+      <div class="q4-exp">正解は<strong>エ</strong>。<i>I</i>＝6÷6＝1Aです。</div>
+    </div>
+
+    <div class="q4" data-correct="d">
+      <div class="q4-stem"><span class="q4-num">問2</span>図の全体を流れる電流(点ウ)は何Aか。</div>
+      <div class="q4-choices">
+        <button class="q4-c" data-v="a">ア:1A</button>
+        <button class="q4-c" data-v="b">イ:2A</button>
+        <button class="q4-c" data-v="c">ウ:9A</button>
+        <button class="q4-c" data-v="d">エ:3A</button>
+      </div>
+      <div class="q4-exp">正解は<strong>エ</strong>。Bに1A、Cに2A流れるので、全体の電流は1＋2＝3Aです。</div>
+    </div>
+
+    <div class="q4" data-correct="b">
+      <div class="q4-stem"><span class="q4-num">問3</span>図のAにかかる電圧は何Vか。(Aは1Ω)</div>
+      <div class="q4-choices">
+        <button class="q4-c" data-v="a">ア:1V</button>
+        <button class="q4-c" data-v="b">イ:3V</button>
+        <button class="q4-c" data-v="c">ウ:6V</button>
+        <button class="q4-c" data-v="d">エ:9V</button>
+      </div>
+      <div class="q4-exp">正解は<strong>イ</strong>。Aには全体の電流3Aが流れます。<i>E</i>＝3×1＝3Vです。</div>
+    </div>
+
+    <div class="q4" data-correct="c">
+      <div class="q4-stem"><span class="q4-num">問4</span>図の電源の電圧は何Vか。</div>
+      <div class="q4-choices">
+        <button class="q4-c" data-v="a">ア:6V</button>
+        <button class="q4-c" data-v="b">イ:3V</button>
+        <button class="q4-c" data-v="c">ウ:9V</button>
+        <button class="q4-c" data-v="d">エ:18V</button>
+      </div>
+      <div class="q4-exp">正解は<strong>ウ</strong>。並列部分6V＋Aの3V＝9Vです。</div>
+    </div>
+
+    <div class="mt-block-result"></div>
+    <div style="text-align:center;"><button class="mt-block-reset">↻ もう一度</button></div>
+  </div>
+
+  <div class="ranking">
+    <h3>🏆 ベストタイム</h3>
+    <ul id="ranking-denki5-u3" class="ranking-list"></ul>
+    <button class="btn outline" onclick="clearRanking('denki5-u3')" style="margin-top:6px;font-size:12px;padding:4px 12px;">記録をリセット</button>
+  </div>
+</div>
+
+
+<div class="next-actions">
+  <h3>🎉 すべての単元、おつかれさま!</h3>
+  <p>次は問題に挑戦しよう!順番にチャレンジするのがおすすめです。</p>
+  <div class="links">
+    <a href="denki5_practice.html">📝 練習問題へ</a>
+    <a href="denki5_check.html">📋 確認問題へ</a>
+  </div>
+</div>
+
+<nav class="pagenav">
+  <a href="index.html">
+    <span class="label">◀ 単元表</span>
+    <span class="title">全単元一覧へ</span>
+  </a>
+  <a href="denki5_practice.html" class="next">
+    <span class="label">NEXT ▶</span>
+    <span class="title">練習問題</span>
+  </a>
+</nav>
+
+</main>
+</div>
+
+<!-- 共通モーダル類 -->
+<div class="example-modal" id="example-modal">
+  <div class="example-content" id="example-content"></div>
+</div>
+
+<div class="pass-overlay" id="pass-overlay">
+  <div class="pass-dialog">
+    <div class="pass-emoji">🎉</div>
+    <h2>合 格!</h2>
+    <p>すべて正解!よくできました!</p>
+    <div class="pass-time" id="pass-time-display">0:00.0</div>
+    <p style="font-size:13px;color:#666;margin-top:6px;">ランキングに記録されました</p>
+    <div class="pass-actions">
+      <button class="btn outline" onclick="document.getElementById('pass-overlay').classList.remove('show')">閉じる</button>
+    </div>
+  </div>
+</div>
+
+<div class="fail-toast" id="fail-toast"></div>
+<div class="confetti" id="confetti"></div>
+
+<script src="app.js"></script>
+</body>
+</html>
